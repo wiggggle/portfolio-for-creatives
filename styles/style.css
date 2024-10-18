@@ -727,10 +727,17 @@ a:active {
   }
 
   .logo {
-    width: 5rem;
+    width: 3rem;
+    fill: white;
+    transition: 200ms;
+    transition-timing-function: ease-in-out;
     /* TODO: Adjust the width of the logo on large devices here. */
   }
-
+  .logo:hover {
+    width: 3rem;
+    fill: #3b3964;
+    /* TODO: Adjust the width of the logo on large devices here. */
+  }
   .hero {
     min-height: 100vh;
   }

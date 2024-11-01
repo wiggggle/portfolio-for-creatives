@@ -31,7 +31,6 @@ Imported stylesheets. Remove the ones you do not want to use.
 /* TODO: Delete any stylesheets that you do not want to use. */
 
 @import url("make-something-fly.css");
-@import url("animated-gradient.css");
 @import url("text-stroke.css");
 @import url("stroke-shadow.css");
 @import url("experiments.css");
@@ -322,6 +321,7 @@ a:active {
   min-height: 80vh;
   display: flex;
   flex-direction: column;
+  background-image: url(../assets/images/caroline-zhang-stuffed-animals-portfolio-background.jpg);
 }
 
 .branding-navigation {
@@ -341,10 +341,10 @@ a:active {
   display: flex;
   flex-direction: column;
   flex: 1;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-start;
+  justify-content: flex-end;
   padding: 2rem 4rem;
-  text-align: center;
+  text-align: left;
 }
 
 .hero-icon {

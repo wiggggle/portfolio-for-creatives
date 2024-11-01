@@ -221,6 +221,7 @@ em {
 .overlay-title {
   font-size: 2.875rem;
   color: var(--overlay-title-color);
+  text-align: center;
 }
 
 .overlay-description {

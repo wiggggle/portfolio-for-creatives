@@ -329,7 +329,7 @@ a:active {
   display: flex;
   flex-direction: row;
   padding: 1rem;
-  align-items: flex-start;
+  align-items: center;
   justify-content: space-around;
   a:link {
     color:white;
@@ -346,7 +346,7 @@ a:active {
 }ß
 
 .logo {
-  width: 3rem;
+  width: 2.5rem;
   justify-content: center;
   /* TODO: Adjust the width of the logo on mobile devices here. */
 }
@@ -391,7 +391,7 @@ a:active {
 
 
 .logo-on-white {
-  width: 3rem;
+  width: 2.5rem;
   fill: #222;
   transition: 200ms;
   transition-timing-function: ease-in-out;
@@ -754,14 +754,14 @@ a:active {
   }
 
   .logo {
-    width: 3rem;
+    width: 2.5rem;
     fill: white;
     transition: 200ms;
     transition-timing-function: ease-in-out;
     /* TODO: Adjust the width of the logo on large devices here. */
   }
   .logo:hover {
-    width: 3rem;
+    width: 2.5rem;
     fill: #3b3964;
     /* TODO: Adjust the width of the logo on large devices here. */
   }

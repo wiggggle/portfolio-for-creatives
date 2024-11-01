@@ -12,7 +12,10 @@
 
 .stroke-shadow {
     color: #ffffff;
-    text-shadow: -2px 0 var(--accent-color), 0 -2px var(--accent-color), 2px 0 var(--accent-color), 0 2px var(--accent-color), 2px 2px var(--accent-color), -2px -2px var(--accent-color), -2px 2px var(--accent-color), 2px -2px var(--accent-color), 6px 6px var(--stroke-shadow-color);
+    text-shadow: -2px 0 var(--accent-color), 0 -2px var(--accent-color), 2px 0 var(--accent-color), 0 2px var(--accent-color), 2px 2px var(--accent-color), -2px -2px var(--accent-color), -2px 2px var(--accent-color), 2px -2px var(--accent-color), 2px 2px var(--stroke-shadow-color);
+  font-size: 3.5rem;
+  padding-bottom: 1%;
+  width: 70%;
 }
 
 .halftone {

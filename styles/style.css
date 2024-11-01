@@ -82,14 +82,14 @@ html {
 :root {
   --body-typeface: "Be Vietnam Pro", sans-serif;
   --heading-typeface: "Space Mono";
-  --project-title-typeface: "Eczar", serif;
+  --project-title-typeface: "Space Mono";
   --background-color: #fdfdfd;
   --background-color-about: #f5f5f5;
   --background-color-footer: #f5f5f5;
   --alt-background-color: #000000;
   --background-color-holding-page: rgba(82, 0, 255, 0.6);
   --h1-color: #5200ff;
-  --h2-color: #5200ff;
+  --h2-color: #222;
   --h3-color: #5200ff;
   --h4-color: #5200ff;
   --h5-color: #5200ff;
@@ -97,23 +97,23 @@ html {
   --primary-text-color: #222;
   --holding-page-title-color: #ebedf0;
   --accent-color: #3b3961;
-  --overlay-color: #5200ff;
+  --overlay-color: #03677b;
   --overlay-title-color: #ffffff;
   --overlay-description-color: #ffffff;
-  --hyperlink-color: #5200ff;
+  --hyperlink-color: #4c3cd8;
   --hyperlink-alternate-color: orangered;
-  --hover-color: #111;
-  --visited-color: #5200ff;
-  --project-title-color: #5200ff;
-  --project-sidebar-background-color: orangered;
-  --project-sidebar-text-color: white;
+  --hover-color: #9f93f5;
+  --visited-color: #03677b;
+  --project-title-color: #222;
+  --project-sidebar-background-color: white;
+  --project-sidebar-text-color: #222;
   --heart-color: darkred;
   --holding-page-footer-color: #f8f8ff;
   --text-selection-background-color: #5200ff;
   --linear-gradient-color-1: #ff057c;
   --linear-gradient-color-2: #8d0b93;
   --linear-gradient-color-3: #321575;
-  --stroke-shadow-color: rgba(0, 0, 0, 0.4);
+  --stroke-shadow-color: #3b3961;
 }
 
 body {
@@ -211,10 +211,10 @@ em {
 }
 
 .project-title {
-  font-size: 3.725rem;
+  font-size: 3rem;
   font-family: var(--project-title-typeface);
   color: var(--project-title-color);
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 
 .overlay-title {
@@ -302,7 +302,7 @@ a:active {
 }
 
 .project-description {
-  font-size: 1.225rem;
+  font-size: 1.1rem;
   line-height: 1.2;
   margin-bottom: 1rem;
 }
@@ -327,13 +327,15 @@ a:active {
 .branding-navigation {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
   padding: 1rem;
   align-items: flex-start;
+  justify-content: space-around;
+
 }
 
 .logo {
   width: 3rem;
+  justify-content: center;
   /* TODO: Adjust the width of the logo on mobile devices here. */
 }
 
@@ -374,6 +376,17 @@ a:active {
  ███ ███   ██████  ██   ██ ██   ██     ██      ██   ██  ██████  ███████ 
 
 */
+.logo-on-white {
+  width: 3rem;
+  fill: #222;
+  transition: 200ms;
+  transition-timing-function: ease-in-out;
+}
+
+.logo-on-white:hover {
+  width: 3rem;
+  fill: #4c3cd8;
+}
 
 .work-wrapper {
   flex: 1;

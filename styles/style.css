@@ -305,6 +305,7 @@ a:active {
   font-size: 1.1rem;
   line-height: 1.2;
   margin-bottom: 1rem;
+  width: 80%;
 }
 
 /* Hero 
@@ -387,6 +388,7 @@ a:active {
  ███ ███   ██████  ██   ██ ██   ██     ██      ██   ██  ██████  ███████ 
 
 */
+
 
 .logo-on-white {
   width: 3rem;
@@ -580,6 +582,7 @@ a:active {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-bottom: 2rem;
 }
 
 .large-emoji-placeholder {

@@ -14,8 +14,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Eczar:wght@400;500;600;700;800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 /*
 
 Imported stylesheets. Remove the ones you do not want to use.
@@ -90,7 +90,7 @@ html {
   --background-color-holding-page: rgba(82, 0, 255, 0.6);
   --h1-color: #5200ff;
   --h2-color: #222;
-  --h3-color: #5200ff;
+  --h3-color: #222;
   --h4-color: #5200ff;
   --h5-color: #5200ff;
   --h6-color: #5200ff;
@@ -169,6 +169,7 @@ h2 {
 
 h3 {
   font-size: 1.325rem;
+  font-family: var(--heading-typeface);
   margin-bottom: 1rem;
   line-height: 1.3;
   color: var(--h3-color);
@@ -195,7 +196,7 @@ h6 {
 p {
   font-size: 1rem;
   line-height: 1.3;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 
 em {
@@ -271,12 +272,24 @@ a:active {
 .colored-link {
   color: var(--hyperlink-alternate-color);
 }
+a.work-navigation {
+  color: #4c3cd8;
+}
+a.work-navigation:hover {
+  color: #9f92f5;
+}
+a.work-navigation:visited {
+  color: #03677b;
+}
 
-.custom-navigation:hover {
-  background: url(assets/temp/heading-background.svg);
-  background-size: 15%;
-  background-repeat: no-repeat;
-  background-position: center center;
+a.custom-navigation {
+  color: rgb(255, 255, 255);
+}
+a.custom-navigation:visited {
+  color: rgb(255, 255, 255);
+}
+a.custom-navigation:hover {
+  color: #fadf64;
 }
 
 .heart {
@@ -331,19 +344,17 @@ a:active {
   padding: 1rem;
   align-items: center;
   justify-content: space-around;
-  a:link {
-    color:white;
-    text-decoration: none;
-  }
-  
-  a:visited {
-    color:white;
-  }
-  
-  a:hover {
-    color: #fcdf5d;
-  }
-}ß
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+}
+
+a:hover {
+}
 
 .logo {
   width: 2.5rem;
@@ -389,14 +400,12 @@ a:active {
 
 */
 
-
 .logo-on-white {
   width: 2.5rem;
   fill: #222;
   transition: 200ms;
   transition-timing-function: ease-in-out;
 }
-
 
 .work-wrapper {
   flex: 1;
@@ -458,6 +467,10 @@ a:active {
                                            
 */
 
+.about-desc {
+  padding-bottom: 2rem;
+}
+
 .about {
   display: grid;
   grid-template-columns: 1fr;
@@ -501,9 +514,10 @@ a:active {
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 3rem;
-  min-height: 100vh;
+  min-height: 80vh;
   background: var(--background-color-footer);
   padding: 1rem;
+  margin-top: 10rem;
 }
 
 .footer-item-1 {
@@ -568,6 +582,10 @@ a:active {
   padding: 0;
 }
 
+.caption {
+  margin-top: 1rem;
+}
+
 .project-image-container {
   display: flex;
   align-items: center;
@@ -577,12 +595,9 @@ a:active {
 
 .project-image {
   width: 100%;
-  min-height: 50vh;
-  /* TODO: Delete min-height if you want to remove space between project images on project pages on mobile devices. It is used for the demo page only. */
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-bottom: 2rem;
 }
 
 .large-emoji-placeholder {
@@ -605,13 +620,6 @@ a:active {
 .project-details {
   width: 100%;
   padding: 1rem;
-  /* TODO: Delete background-image and the three linear gradient colors to remove the gradient background on the project page. Be careful not to delete the closing } */
- /* background-image: linear-gradient(
-    -225deg,
-    var(--linear-gradient-color-1) 0%,
-    var(--linear-gradient-color-2) 50%,
-    var(--linear-gradient-color-3) 100%
-  ); */
 }
 
 /* 
@@ -633,7 +641,12 @@ a:active {
   width: 100%;
   min-height: 100vh;
   /* TODO: Delete the following if you do not want a grainy gradient background on index.html. Be careful not to delete the closing } */
-  background: linear-gradient(0deg, rgba(0, 0, 0, 1), var(--background-color-holding-page)), url(/assets/temp/noise.svg);
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 1),
+      var(--background-color-holding-page)
+    ),
+    url(/assets/temp/noise.svg);
   /* For more on grainy gradients see https://grainy-gradients.vercel.app/ */
 }
 
@@ -869,8 +882,7 @@ a:active {
   }
 
   .project-image {
-    min-height: 70vh;
-    /* TODO: Delete min-height if you want to remove space between project images on project pages on large devices. It is used for the demo page only. */
+    margin-bottom: 1rem;
   }
 
   .project-image-container {

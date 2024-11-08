@@ -254,20 +254,21 @@ a:active {
 }
 
 .navigation-arrow {
-  color: var(--alt-background-color);
+  color: black;
 }
 
 .navigation-arrow:link {
   -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: var(--accent-color);
+  -webkit-text-stroke-color: black;
   color: transparent;
 }
 
 .navigation-arrow:active,
 .navigation-arrow:hover {
-  color: var(--accent-color);
+  color: black;
+  fill: black;
   -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: var(--accent-color);
+  -webkit-text-stroke-color: black;
 }
 
 .colored-link {
@@ -333,10 +334,14 @@ a.custom-navigation:hover {
 */
 
 .hero {
-  min-height: 80vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   background-image: url(../assets/images/caroline-zhang-stuffed-animals-portfolio-background.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 
 .branding-navigation {
@@ -359,8 +364,15 @@ a:hover {
 
 .logo {
   width: 2.5rem;
-  justify-content: center;
-  /* TODO: Adjust the width of the logo on mobile devices here. */
+  fill: white;
+  transition: 200ms;
+  transition-timing-function: ease-in-out;
+  /* TODO: Adjust the width of the logo on large devices here. */
+}
+.logo:hover {
+  width: 2.5rem;
+  fill: #fadf64;
+  /* TODO: Adjust the width of the logo on large devices here. */
 }
 
 .hero-headline-wrapper {
@@ -681,7 +693,16 @@ a:hover {
 ███████ ██   ██ ██   ██  ██████  ██   ██ 
 */
 
-/* TODO: Customize your 404 Error Page */
+.error {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-image: url("assets/images/caroline-zhang-error-404-background.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
 
 /* The best 404 pages have become an art in themselves. Your 404 error page is an opportunity to make a memorable impression on your visitors when they don’t land exactly where they hoped. */
 
@@ -769,18 +790,13 @@ a:hover {
 
   .logo {
     width: 2.5rem;
-    fill: white;
-    transition: 200ms;
-    transition-timing-function: ease-in-out;
+
     /* TODO: Adjust the width of the logo on large devices here. */
   }
   .logo:hover {
     width: 2.5rem;
-    fill: #3b3964;
+
     /* TODO: Adjust the width of the logo on large devices here. */
-  }
-  .hero {
-    min-height: 100vh;
   }
 
   .hero-headline-wrapper {

@@ -38,15 +38,15 @@
   }
 
   12.5% {
-    transform: translate(120vw, -120%) rotateZ(20deg);
+    transform: translate(120vw, -120%) rotateZ(360deg);
   }
 
   25% {
-    transform: translate(-200%, 50vh) scale(1.75) rotateZ(-20deg);
+    transform: translate(-200%, 50vh) scale(1.75) rotateZ(-360deg);
   }
 
   37.5% {
-    transform: translate(-200%, -120%) rotateZ(-40deg);
+    transform: translate(-200%, -120%) rotateZ(-720deg);
   }
 
   50% {
@@ -55,13 +55,13 @@
   }
 
   62.5% {
-    transform: translate(20vw, 100vh) rotateZ(20deg);
+    transform: translate(20vw, 100vh) rotateZ(360deg);
   }
   75% {
-    transform: translate(200%, 100vh) rotateZ(20deg);
+    transform: translate(200%, 100vh) rotateZ(360deg);
   }
   87.5% {
-    transform: translate(50vw, -200%) scale(1.75) rotateZ(20deg);
+    transform: translate(50vw, -200%) scale(1.75) rotateZ(360deg);
   }
 
   100% {

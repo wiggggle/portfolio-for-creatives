@@ -352,16 +352,6 @@ a.custom-navigation:hover {
   justify-content: space-around;
 }
 
-a:link {
-  text-decoration: none;
-}
-
-a:visited {
-}
-
-a:hover {
-}
-
 .logo {
   width: 2.5rem;
   fill: white;
@@ -697,11 +687,20 @@ a:hover {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  background-image: url("assets/images/caroline-zhang-error-404-background.jpg");
+  background-image: url(../assets/images/caroline-zhang-error-404-background.jpg);
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
   background-repeat: no-repeat;
+}
+
+.error-page-title {
+  color: white;
+  padding-bottom: 2%;
+}
+.error-page-subhead {
+  color: white;
+  font-size: 1.5rem;
 }
 
 /* The best 404 pages have become an art in themselves. Your 404 error page is an opportunity to make a memorable impression on your visitors when they don’t land exactly where they hoped. */

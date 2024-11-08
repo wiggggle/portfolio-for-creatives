@@ -760,13 +760,6 @@ a.custom-navigation:hover {
 
 */
 @media (min-width: 390px) {
-  .hero {
-    background-size: cover;
-    background-position: center center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-  }
-
   .stroke-shadow {
     font-size: 2.5rem;
     padding-bottom: 1%;

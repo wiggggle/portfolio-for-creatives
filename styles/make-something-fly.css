@@ -58,14 +58,14 @@
     transform: translate(20vw, 100vh) rotateZ(360deg);
   }
   75% {
-    transform: translate(200%, 100vh) rotateZ(360deg);
+    transform: translate(200%, 100vh) rotateZ(780deg);
   }
   87.5% {
-    transform: translate(50vw, -200%) scale(1.75) rotateZ(360deg);
+    transform: translate(50vw, -200%) scale(1.75) rotateZ(1200deg);
   }
 
   100% {
-    transform: translate(-200%, 110vh) rotateZ(0deg);
+    transform: translate(-200%, 110vh) rotateZ(1600deg);
     opacity: 1;
   }
 }

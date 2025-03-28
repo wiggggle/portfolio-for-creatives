@@ -208,6 +208,12 @@ em {
   padding-top: 3rem;
 }
 
+.fineprint-index {
+  font-size: 0.875rem;
+  padding-top: 3rem;
+  color: #ebedf0;
+}
+
 .hero-headline {
   color: var(--overlay-color);
 }

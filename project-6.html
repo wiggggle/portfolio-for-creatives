@@ -13,17 +13,19 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
     />
-    <script
-      src="https://kit.fontawesome.com/d300c2ea15.js"
-      crossorigin="anonymous"
-    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
     <link rel="stylesheet" href="./styles/style.css" />
   </head>
 
-  <body class="about-page">
+  <body class="project-2">
     <header class="hero-header">
       <ul class="branding-navigation">
-        <li><a href="work.html">Work</a></li>
+        <li class="project-nav">
+          <a href="work.html">Work</a>
+        </li>
         <li class="logo-on-white">
           <a href="work.html">
             <svg
@@ -55,38 +57,86 @@
         <li><a href="about.html">About</a></li>
       </ul>
     </header>
-    <ul class="about">
-      <li class="about-item-1">
-        <div class="about-image">
+    <div class="project-wrapper">
+      <aside class="project-aside">
+        <div class="project-info">
+          <h1 class="project-title">Project Three</h1>
+          <p class="project-description">
+            A brief description of your project goes here.
+          </p>
+        </div>
+        <ul class="project-navigation">
+          <li class="arrow">
+            <a href="project-1.html" class="navigation-arrow"
+              ><i class="fas fa-arrow-left fa-2x"></i
+            ></a>
+          </li>
+          <li class="arrow">
+            <a href="#" class="navigation-arrow"
+              ><i class="fas fa-arrow-right fa-2x"></i
+            ></a>
+          </li>
+        </ul>
+      </aside>
+      <main class="project-details">
+        <div class="project-image">
           <img
-            src="assets/images/Caroline-Zhang-Self-Portrait-illustration.jpg"
-            width="800"
-            height="1093"
-            alt="Your Photo"
+            src="assets/images/caroline-zhang-bubble-tea-drink-can-design-transit-advertisement-campaign.jpg"
+            width="1000"
+            height="1000"
+            alt="A description of the image"
           />
         </div>
-      </li>
-      <li class="about-item-2">
-        <h2>About Caroline</h2>
-        <p class="about-desc">
+      </main>
+    </div>
+    <ul class="global-footer">
+      <li class="footer-item-1">
+        <h2>About Me</h2>
+        <p>
           Hi there, I’m Caroline, a graphic designer and overall big thinker
           based in Vancouver. Right now I’m a third year student in the IDEA
           School of Design with a focus on branding and a smattering of
-          illustration and UX. Research and analysis is where I feel at home—if
-          you’ve got a question or a problem I’m your guy.
+          illustration. Research and analysis is where I feel at home—if you’ve
+          got a question or a problem I’m your guy. My interests are as vast and
+          varied but my one true love is video games. I go from grinding at work
+          to grinding levels virtually so efficiency is my key to success. I
+          live next to computers so feel free to reach out and I’ll get back to
+          you as soon as I can (after one more game).
         </p>
-        <p>
-          My interests are vast and varied but my one true love is video games.
-          I go from grinding at work to grinding levels virtually so efficiency
-          is my key to success. I live next to computers so feel free to reach
-          out and I’ll get back to you as soon as I can (after one more game).
-        </p>
-        <h3>Testimonials</h3>
-        <p>"One of the greatest minds I know."</p>
       </li>
-      <li class="about-item-3">
+      <li class="footer-item-2">
+        <h2>Awards &amp; Recognition</h2>
+        <ul class="awards-list">
+          <li class="award-item">
+            <p>
+              <a
+                href="https://rgd.ca/hiring-designers/award-winners/rgd-student-awards-past-winners"
+                >RGD's 2023 Student Awards Honourable Mentions in packaging and
+                1st year student categories</a
+              >
+            </p>
+          </li>
+        </ul>
+
+        <h2>Selected Works</h2>
+        <ul class="footer-nav-list">
+          <li class="footer-nav-item">
+            <a href="project-1.html">Chinese national bag design</a>
+          </li>
+          <li class="footer-nav-item">
+            <a href="project-2.html">Queue branding and packaging</a>
+          </li>
+          <li class="footer-nav-item">
+            <a href="project-3.html">Bo-cha beverage branding and packaging</a>
+          </li>
+        </ul>
+      </li>
+      <li class="footer-item-3">
         <h2>Contact &amp; Social</h2>
         <ul class="socials-list">
+          <li class="social-item">
+            <a href="https://www.behance.net/wigggle">Behance</a>
+          </li>
           <li class="social-item">
             <a href="https://www.instagram.com/wiggggggggggle/?hl=en"
               >Instagram</a
@@ -96,28 +146,35 @@
             <a href="https://www.linkedin.com/in/wigggle/">LinkedIn</a>
           </li>
           <li class="social-item">
-            <a href="https://www.behance.net/wigggle">Behance</a>
-          </li>
-          <li class="social-item">
             <a href="mailto:yuqizhang@my.capilanou.ca">hit me up!</a>
           </li>
         </ul>
       </li>
-      <li class="about-item-4">
+      <li class="footer-item-4">
+        <p><a href="#top">Smooth scroll to the top</a></p>
         <p class="fineprint">
           &copy; 2024-2026. Coded frantically by Caroline Zhang.
         </p>
       </li>
     </ul>
-    <footer class="hero-footer">
-      <ul class="hero-footer-navigation">
-        <li><a href="#" class="custom-navigation">Instagram</a></li>
-        <li>
-          <a href="mailto:yuqizhang@my.capilanou.ca" class="custom-navigation"
-            >Email</a
-          >
-        </li>
-      </ul>
-    </footer>
+
+    <div id="myID" class="bottomMenu hide">
+      <a href="project-1.html">Previous Project</a>
+    </div>
+
+    <script type="text/javascript">
+      myID = document.getElementById("myID");
+
+      var myScrollFunc = function () {
+        var y = window.scrollY;
+        if (y >= 800) {
+          myID.className = "bottomMenu show";
+        } else {
+          myID.className = "bottomMenu hide";
+        }
+      };
+
+      window.addEventListener("scroll", myScrollFunc);
+    </script>
   </body>
 </html>

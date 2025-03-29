@@ -593,6 +593,7 @@ a.custom-navigation:hover {
 
 .caption {
   margin-top: 1rem;
+  font-style: italic;
 }
 
 .project-image-container {

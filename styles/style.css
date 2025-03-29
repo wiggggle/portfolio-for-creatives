@@ -610,6 +610,15 @@ a.custom-navigation:hover {
   justify-content: center;
 }
 
+.liminal-image {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+  border: 1px solid grey;
+}
+
 .large-emoji-placeholder {
   font-size: 12rem;
   /* TODO: Delete this rule. It is only used for making the placeholder emojis large for demo purposes only. */

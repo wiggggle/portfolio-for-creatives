@@ -811,7 +811,6 @@ a.custom-navigation:hover {
     width: 2rem;
   }
   .hero {
-    min-height: 100vh;
     display: flex;
     flex-direction: column;
     background-image: url(../assets/images/caroline-zhang-stuffed-animals-portfolio-background.jpg);

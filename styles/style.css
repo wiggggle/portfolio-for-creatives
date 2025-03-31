@@ -363,6 +363,13 @@ body {
   flex-direction: row;
   padding: 1rem;
   align-items: center;
+  justify-content: space-around;
+}
+.branding-home-navigation {
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
+  align-items: center;
   justify-content: space-between;
   margin-left: 5%;
   margin-right: 5%;

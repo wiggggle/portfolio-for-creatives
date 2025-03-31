@@ -353,7 +353,7 @@ body {
   flex-direction: column;
   background-image: url(../assets/images/caroline-zhang-stuffed-animals-portfolio-background.jpg);
   background-position: center center;
-  background-attachment: fixed;
+
   background-repeat: no-repeat;
   background-size: cover;
 }

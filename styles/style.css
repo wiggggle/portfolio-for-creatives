@@ -289,6 +289,17 @@ a.work-navigation:hover {
 a.work-navigation:visited {
   color: #03677b;
 }
+a.error-navigation {
+  color: #fadf64;
+}
+
+a.error-navigation:visited {
+  color: #fadf64;
+}
+
+a.error-navigation:hover {
+  color: #9f92f5;
+}
 
 a.custom-navigation {
   color: rgb(255, 255, 255);

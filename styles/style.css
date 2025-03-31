@@ -366,16 +366,11 @@ body {
   justify-content: space-around;
 }
 
-.logo {
+.logo-home {
   width: 2.5rem;
   fill: white;
   transition: 200ms;
   transition-timing-function: ease-in-out;
-  /* TODO: Adjust the width of the logo on large devices here. */
-}
-.logo:hover {
-  width: 2.5rem;
-  fill: #fadf64;
   /* TODO: Adjust the width of the logo on large devices here. */
 }
 
@@ -416,8 +411,14 @@ body {
  ███ ███   ██████  ██   ██ ██   ██     ██      ██   ██  ██████  ███████ 
 
 */
+.logo:hover svg path {
+  fill: #4c3cd8;
+}
 
-.logo-on-white {
+.logo:hover {
+  color: #4c3cd8;
+}
+.logo {
   width: 2.5rem;
   fill: #222;
   transition: 200ms;

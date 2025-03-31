@@ -372,26 +372,18 @@ body {
 .branding-navigation {
   display: flex;
   flex-direction: row;
-  padding: 1rem;
+  padding: 1.5rem;
+  margin-bottom: -1%;
   align-items: center;
-  justify-content: space-around;
+  justify-content: left;
 }
 .branding-home-navigation {
   display: flex;
-  flex-direction: row;
   padding: 1rem;
   align-items: center;
-  justify-content: space-between;
-  margin-left: 5%;
-  margin-right: 5%;
-}
-
-.logo-home {
-  width: 2.5rem;
-  fill: white;
-  transition: 200ms;
-  transition-timing-function: ease-in-out;
-  /* TODO: Adjust the width of the logo on large devices here. */
+  justify-content: space-around;
+  margin-left: -15%;
+  margin-right: -15%;
 }
 
 .hero-headline-wrapper {
@@ -443,6 +435,14 @@ body {
   fill: #222;
   transition: 200ms;
   transition-timing-function: ease-in-out;
+}
+.logo-home {
+  width: 2.5rem;
+  fill: white;
+  transition: 200ms;
+  transition-timing-function: ease-in-out;
+  justify-content: center;
+  /* TODO: Adjust the width of the logo on large devices here. */
 }
 
 .work-wrapper {
@@ -832,13 +832,6 @@ body {
   .project-title {
     font-size: 2rem;
   }
-
-  .logo {
-    width: 2rem;
-  }
-  .logo:hover {
-    width: 2rem;
-  }
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -871,13 +864,6 @@ body {
   .project-title {
     font-size: 2rem;
   }
-
-  .logo {
-    width: 2rem;
-  }
-  .logo:hover {
-    width: 2rem;
-  }
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -887,13 +873,6 @@ body {
 
   .holding-page-title {
     font-size: 2rem;
-  }
-
-  .logo {
-    width: 3rem;
-  }
-  .logo:hover {
-    width: 3rem;
   }
 
   .hero-headline-wrapper {

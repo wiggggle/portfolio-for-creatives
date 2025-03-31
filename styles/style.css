@@ -811,6 +811,17 @@ a.custom-navigation:hover {
   .logo:hover {
     width: 2rem;
   }
+  .hero {
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-image: url(../assets/images/caroline-zhang-mobile-stuffed-animals-portfolio-background.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -849,6 +860,17 @@ a.custom-navigation:hover {
   }
   .logo:hover {
     width: 2rem;
+  }
+  .hero {
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-image: url(../assets/images/caroline-zhang-tablet-stuffed-animals-portfolio-background.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 }
 

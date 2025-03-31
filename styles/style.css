@@ -363,7 +363,9 @@ body {
   flex-direction: row;
   padding: 1rem;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .logo-home {

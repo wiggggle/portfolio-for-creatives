@@ -345,7 +345,6 @@ a.custom-navigation:hover {
   display: flex;
   flex-direction: column;
   background-image: url(../assets/images/caroline-zhang-stuffed-animals-portfolio-background.jpg);
-  background-size: cover;
   background-position: center center;
   background-attachment: fixed;
   background-repeat: no-repeat;

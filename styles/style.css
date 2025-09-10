@@ -639,6 +639,15 @@ body {
   justify-content: center;
 }
 
+.video-game-image {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 1.5rem;
+}
+
 .liminal-image {
   width: 100%;
   display: flex;

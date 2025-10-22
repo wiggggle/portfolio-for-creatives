@@ -93,7 +93,7 @@ html {
   --h3-color: #222;
   --h4-color: #5200ff;
   --h5-color: #5200ff;
-  --h6-color: #222;
+  --h6-color: #5200ff;
   --primary-text-color: #222;
   --holding-page-title-color: #ebedf0;
   --accent-color: #3b3961;
@@ -188,10 +188,8 @@ h5 {
 }
 
 h6 {
-  font-size: 1.2rem;
-  font-family: var(--heading-typeface);
+  font-size: 1rem;
   margin-bottom: 1rem;
-  font-style: italic;
   color: var(--h6-color);
 }
 
@@ -224,6 +222,7 @@ em {
   font-size: 3rem;
   font-family: var(--project-title-typeface);
   color: var(--project-title-color);
+  margin-bottom: 2rem;
 }
 
 .overlay-title {
@@ -615,12 +614,10 @@ body {
   flex: 1;
   align-items: flex-end;
   justify-content: space-between;
-  margin-left: 1.5rem;
-  padding: 0.5rem 0rem;
 }
 
 .arrow {
-  margin-bottom: 1.5vh;
+  padding: 0;
 }
 
 .caption {
@@ -640,23 +637,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.project-image-wide {
-  width: 100%;
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-  padding: 0rem 1.5rem 2rem;
-}
-.project-image-mult {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: center;
-  padding: 0rem 1.5rem 2rem;
-  gap: 2%;
 }
 
 .video-game-image {

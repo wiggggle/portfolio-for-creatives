@@ -87,7 +87,7 @@ html {
   --background-color-about: #fdfdfd;
   --background-color-footer: #f5f5f5;
   --alt-background-color: #000000;
-  --background-color-holding-page: #fdfdfd;
+  --background-color-holding-page: #3b3961;
   --h1-color: #5200ff;
   --h2-color: #222;
   --h3-color: #222;
@@ -96,7 +96,7 @@ html {
   --h6-color: #5200ff;
   --primary-text-color: #222;
   --holding-page-title-color: #ebedf0;
-  --accent-color: #ffffff;
+  --accent-color: #3b3961;
   --overlay-color: #03677b;
   --overlay-title-color: #ffffff;
   --overlay-description-color: #ffffff;
@@ -113,7 +113,7 @@ html {
   --linear-gradient-color-1: #ff057c;
   --linear-gradient-color-2: #8d0b93;
   --linear-gradient-color-3: #321575;
-  --stroke-shadow-color: #000000;
+  --stroke-shadow-color: #3b3961;
 }
 
 body {
@@ -302,13 +302,13 @@ a.error-navigation:hover {
 }
 
 a.custom-navigation {
-  color: black;
+  color: rgb(255, 255, 255);
 }
 a.custom-navigation:visited {
-  color: black;
+  color: rgb(255, 255, 255);
 }
 a.custom-navigation:hover {
-  color: #9f92f5;
+  color: #fadf64;
 }
 
 .heart {
@@ -358,14 +358,15 @@ body {
 }
 
 .hero {
-  height: 100vh;
+  height: 90vh;
   max-width: 100%;
   display: flex;
   flex-direction: column;
-  background-image: url(../assets/images/Untitled_Artwork.png);
+  background-image: url(../assets/images/caroline-zhang-stuffed-animals-portfolio-background.jpg);
   background-position: center center;
+
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
 }
 
 .branding-navigation {
@@ -391,16 +392,12 @@ body {
   flex: 1;
   align-items: flex-start;
   justify-content: flex-end;
-  padding: 1rem 2rem;
+  padding: 2rem 4rem;
   text-align: left;
 }
 
 .hero-icon {
   font-size: 4rem;
-}
-
-.stroke-shadow {
-  color: black;
 }
 
 .hero-footer {
@@ -441,7 +438,7 @@ body {
 }
 .logo-home {
   width: 2.5rem;
-  fill: black;
+  fill: white;
   transition: 200ms;
   transition-timing-function: ease-in-out;
   justify-content: center;
@@ -450,13 +447,6 @@ body {
 
 .work-wrapper {
   flex: 1;
-  background: linear-gradient(
-      180deg,
-      rgb(17, 16, 16),
-      var(--background-color-holding-page)
-    ),
-    url(/assets/temp/noise.svg);
-  padding: 4rem 2rem 0rem;
 }
 
 /* Padding around work grid and project page */
@@ -562,10 +552,10 @@ body {
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 3rem;
-  min-height: 65vh;
+  min-height: 80vh;
   background: var(--background-color-footer);
   padding: 1rem;
-  margin-top: 3rem;
+  margin-top: 10rem;
 }
 
 .footer-item-1 {
@@ -895,7 +885,7 @@ body {
   }
 
   .hero-headline-wrapper {
-    padding: 1rem 4rem;
+    padding: 4rem 8rem;
   }
 
   .grid {

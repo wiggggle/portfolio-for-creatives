@@ -19,12 +19,14 @@
       src="https://kit.fontawesome.com/d300c2ea15.js"
       crossorigin="anonymous"
     ></script>
+
     <link rel="stylesheet" href="./styles/style.css" />
   </head>
 
   <body class="work-page">
-    <section class="hero gradient-animation">
+    <section class="hero">
       <header class="hero-header">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
         <ul class="branding-home-navigation">
           <li class="nav">
             <a href="about.html" class="custom-navigation">About</a>
@@ -63,14 +65,14 @@
           </li>
         </ul>
       </header>
-      <div class="hero-headline-wrapper">
-        <h1 class="stroke-shadow">
-          Hi there. I'm Caroline Zhang, a branding design student.
-        </h1>
+      <div class="container" id="container">
+        <!-- Physics shapes will be added here by JavaScript -->
       </div>
-      <footer class="hero-footer">
-        <ul class="hero-footer-navigation"></ul>
-      </footer>
+      <div class="illustration-overlay"></div>
+
+      <div class="hero-headline-wrapper">
+        <h1 class="stroke-shadow">Caroline Zhang, Designer.</h1>
+      </div>
     </section>
 
     <main class="work-wrapper">
@@ -234,17 +236,6 @@
       </li>
     </ul>
 
-    <div id="myID" class="bottomMenu hide">
-      <a href="#">Back to top</a>
-    </div>
-
-    <div class="flier">
-      <img
-        src="assets/branding-images/mew-floater-maybe.png"
-        alt="Describe your image"
-      />
-    </div>
-
     <script>
       myID = document.getElementById("myID");
 
@@ -259,5 +250,6 @@
 
       window.addEventListener("scroll", myScrollFunc);
     </script>
+    <script src="js/heroshape.js"></script>
   </body>
 </html>

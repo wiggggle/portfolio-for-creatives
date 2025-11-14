@@ -128,7 +128,7 @@ body {
 /* The ::selection CSS pseudo-element applies styles to the part of a document that has been highlighted by the user (such as clicking and dragging the mouse across text). */
 
 ::selection {
-  background: var(--accent-color);
+  background: #fadf64;
 }
 
 /* Make all images responsive */
@@ -699,6 +699,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-right: 1rem;
 }
 
 .project-image-wide {
@@ -714,8 +715,7 @@ body {
   flex-direction: row;
   align-items: flex-start;
   justify-content: center;
-  padding: 0rem 1.5rem 2rem;
-  gap: 2%;
+  padding: 0rem 3rem 2rem;
 }
 
 .video-game-image {

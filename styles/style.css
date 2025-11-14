@@ -719,11 +719,11 @@ body {
 }
 
 .video-game-image {
-  width: 50%;
+  width: 80%;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
-  margin: auto;
+
   margin-top: 1.5rem;
 }
 

@@ -679,6 +679,7 @@ body {
   color: var(--project-sidebar-text-color);
   background: var(--project-sidebar-background-color);
 }
+
 .project-aside-temp {
   width: 100%;
   padding: 0.5rem 3rem;
@@ -1073,6 +1074,12 @@ body {
     width: 35%;
     height: 65vh;
 
+    top: 5vh;
+    padding-right: 2rem;
+  }
+  .project-aside-temp {
+    width: 35%;
+    height: 65vh;
     top: 5vh;
     padding-right: 2rem;
   }

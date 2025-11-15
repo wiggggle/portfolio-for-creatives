@@ -673,6 +673,14 @@ body {
 /* Sidebar */
 .project-aside {
   width: 100%;
+  padding: 0.5rem 1rem;
+  display: flex;
+  flex-direction: column;
+  color: var(--project-sidebar-text-color);
+  background: var(--project-sidebar-background-color);
+}
+.project-aside-temp {
+  width: 100%;
   padding: 0.5rem 3rem;
   display: flex;
   flex-direction: column;

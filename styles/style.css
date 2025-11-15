@@ -92,7 +92,7 @@ html {
   --h2-color: #222;
   --h3-color: #222;
   --h4-color: #5200ff;
-  --h5-color: #5200ff;
+  --h5-color: #fdfdfd;
   --h6-color: #222;
   --primary-text-color: #222;
   --holding-page-title-color: #ebedf0;
@@ -182,8 +182,8 @@ h4 {
 }
 
 h5 {
-  font-size: 1.1rem;
-  margin-bottom: 1rem;
+  font-size: 2rem;
+
   color: var(--h5-color);
 }
 
@@ -382,6 +382,18 @@ body {
   height: 100%;
 }
 
+.home-blurb-container {
+  background-color: rgb(17, 16, 16);
+  padding: 7%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-blurb {
+  width: 70%;
+}
+
 /* Each SVG wrapper for physics shapes */
 .svg-box {
   position: absolute;
@@ -502,7 +514,7 @@ body {
       var(--background-color-holding-page)
     ),
     url(/assets/temp/noise.svg);
-  padding: 4rem 2rem 0rem;
+  padding: 0rem 2rem 3rem;
 }
 .home-test {
   background-color: rgb(17, 16, 16);
@@ -684,6 +696,7 @@ body {
 
 .caption {
   margin-top: 1rem;
+  margin-bottom: 1rem;
   font-style: italic;
 }
 
@@ -707,7 +720,7 @@ body {
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  padding: 0rem 1.5rem 2rem;
+  padding: 0rem 1.5rem 3rem;
 }
 .project-image-mult {
   width: 100%;

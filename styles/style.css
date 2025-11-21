@@ -522,10 +522,6 @@ body {
 }
 
 /* Padding around work grid and project page */
-.portfolio,
-.project-wrapper {
-  padding: 0.25rem;
-}
 
 /* Defining the work page grid */
 .grid {
@@ -705,7 +701,7 @@ body {
 
 .caption {
   margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
   font-style: italic;
 }
 
@@ -721,7 +717,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-right: 1rem;
+  padding: 0rem 1.5rem 3rem;
 }
 
 .project-image-wide {
@@ -1061,7 +1057,7 @@ body {
   /* Padding around work grid and project page */
   .portfolio,
   .project-wrapper {
-    padding: 0.5rem;
+    padding-top: 0.5rem;
   }
 
   /* Project Page Flex Direction on Large Devices */

@@ -100,10 +100,10 @@ html {
   --overlay-color: #03677b;
   --overlay-title-color: #ffffff;
   --overlay-description-color: #ffffff;
-  --hyperlink-color: #4c3cd8;
+  --hyperlink-color: #19869b;
   --hyperlink-alternate-color: orangered;
-  --hover-color: #9f93f5;
-  --visited-color: #03677b;
+  --hover-color: #33c2f2;
+  --visited-color: #19869b;
   --project-title-color: #222;
   --project-sidebar-background-color: white;
   --project-sidebar-text-color: #222;
@@ -326,8 +326,17 @@ a.custom-navigation:hover {
   line-height: 1.3;
 }
 
+.socials-list {
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+}
 .social-item {
+  line-height: 2;
+}
+.fa-icon {
   line-height: 1.3;
+  font-size: 2rem;
 }
 
 .list-item {
@@ -1138,6 +1147,9 @@ body {
   .project-title {
     font-size: 1.5rem;
   }
+  .global-footer {
+    padding: 2rem;
+  }
 }
 
 @media (min-width: 550px) {
@@ -1185,6 +1197,9 @@ body {
     display: flex;
     justify-content: center;
     margin-bottom: 2rem;
+  }
+  .global-footer {
+    padding: 3rem;
   }
 }
 
@@ -1312,7 +1327,7 @@ body {
 
   .grid {
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-    grid-gap: 1rem;
+    grid-gap: 1.5rem;
   }
 
   /* Grayscale filter with full-colour on hover and tap */

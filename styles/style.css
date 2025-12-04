@@ -321,6 +321,8 @@ a.custom-navigation:hover {
 }
 
 .award-item {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
   line-height: 1.3;
 }
 
@@ -630,6 +632,7 @@ body {
   background: var(--background-color-footer);
   padding: 1rem;
   padding-top: 3rem;
+  margin-top: 3rem;
 }
 
 .footer-item-1 {
@@ -933,6 +936,11 @@ body {
     width: 80%;
     height: 80%;
   }
+
+  h2 {
+    font-size: 1.8rem;
+  }
+
   h5 {
     font-size: 1.5rem;
     line-height: 1.3;
@@ -972,8 +980,93 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-
+    margin-bottom: 2rem;
     margin-top: 1.5rem;
+  }
+  .project-navigation {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-left: 0.5rem;
+    margin-right: 1.3rem;
+    padding: 0.5rem 0rem;
+  }
+
+  .project-aside-temp {
+    width: 100%;
+    top: 5vh;
+    padding-right: 2rem;
+    padding: 0.5rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    color: var(--project-sidebar-text-color);
+    background: var(--project-sidebar-background-color);
+  }
+
+  .project-aside-temp-bottom {
+    width: 100%;
+    top: 5vh;
+    padding-right: 2rem;
+    padding: 0.5rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    color: var(--project-sidebar-text-color);
+    background: var(--project-sidebar-background-color);
+  }
+
+  .header {
+    width: 100%;
+    top: 5vh;
+    padding-right: 2rem;
+    padding: 0.5rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    color: var(--project-sidebar-text-color);
+    background: var(--project-sidebar-background-color);
+  }
+
+  .project-description {
+    font-size: 1rem;
+  }
+  .project-title {
+    font-size: 1.5rem;
+  }
+
+  .project-image-wide {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0rem 0rem 3rem;
+  }
+  .about-desc {
+    font-size: 1rem;
+  }
+
+  .award-item {
+    font-size: 1rem;
+  }
+  .footer-item-4 {
+    justify-self: center;
+  }
+  .about {
+    grid-gap: 0rem;
+  }
+
+  .about-item-1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+  }
+  .about-item-2 {
+    width: 90%;
+    justify-self: center;
+  }
+  .about-item-3 {
+    width: 90%;
+    justify-self: center;
   }
 }
 
@@ -991,6 +1084,13 @@ body {
     pointer-events: none; /* don't block mouse interactions */
     z-index: 20; /* above the physics shapes */
     mix-blend-mode: normal; /* optional: blend with shapes behind */
+  }
+
+  .project-navigation {
+    justify-content: flex-start;
+  }
+  .arrow {
+    padding-right: 1rem;
   }
 
   .stroke-shadow {
@@ -1018,7 +1118,7 @@ body {
     font-size: 0.9rem;
   }
   .project-title {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 }
 
@@ -1047,6 +1147,26 @@ body {
     pointer-events: none; /* don't block mouse interactions */
     z-index: 20; /* above the physics shapes */
     mix-blend-mode: normal; /* optional: blend with shapes behind */
+  }
+  .project-navigation {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-left: 1.5rem;
+    padding: 0.5rem 0rem;
+  }
+  .project-navigation {
+    justify-content: flex-start;
+  }
+  .about {
+    grid-gap: 2rem;
+  }
+  .about-item-1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
   }
 }
 
@@ -1099,6 +1219,60 @@ body {
     z-index: 20; /* above the physics shapes */
     mix-blend-mode: normal; /* optional: blend with shapes behind */
   }
+  .project-navigation {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-left: 1.5rem;
+    padding: 0.5rem 0rem;
+  }
+  .project-navigation {
+    justify-content: flex-start;
+  }
+
+  .project-image-wide {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0rem 1.5rem 3rem;
+  }
+
+  .project-aside-temp {
+    width: 100%;
+    top: 5vh;
+    padding-right: 2rem;
+    padding: 0.5rem 3rem;
+    display: flex;
+    flex-direction: column;
+    color: var(--project-sidebar-text-color);
+    background: var(--project-sidebar-background-color);
+  }
+
+  .project-aside-temp-bottom {
+    width: 100%;
+    top: 5vh;
+    padding-right: 2rem;
+    padding: 0.5rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    color: var(--project-sidebar-text-color);
+    background: var(--project-sidebar-background-color);
+  }
+  .about-item-1 {
+    display: flex;
+    justify-content: center;
+  }
+  .about-item-2 {
+    width: 80%;
+    justify-self: center;
+  }
+  .about-item-3 {
+    width: 80%;
+    justify-self: center;
+  }
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -1134,7 +1308,8 @@ body {
   }
 
   .about {
-    padding: 4rem;
+    padding: 2rem;
+    grid-gap: 0rem;
     grid-template-columns: 1fr 1fr 1fr;
   }
 
@@ -1199,25 +1374,42 @@ body {
   }
 
   /* Sidebar on Large Devices */
-  .project-aside {
-    width: 35%;
-    height: 65vh;
 
+  .project-aside-temp {
+    width: 50%;
     top: 5vh;
     padding-right: 2rem;
+    padding: 0.5rem 3rem 3rem;
+    display: flex;
+    flex-direction: column;
+    color: var(--project-sidebar-text-color);
+    background: var(--project-sidebar-background-color);
   }
 
   .project-aside-temp-bottom {
-    display: flex;
-    width: 35%;
-    height: 65vh;
+    width: 50%;
     top: 5vh;
     padding-right: 2rem;
-    padding: 0.5rem 3rem;
-
+    padding: 0.5rem 1.5rem;
+    display: flex;
+    flex-direction: column;
     color: var(--project-sidebar-text-color);
     background: var(--project-sidebar-background-color);
-    align-items: center;
+  }
+
+  .header {
+    width: 80%;
+    top: 5vh;
+    padding-right: 2rem;
+    padding: 0.5rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    color: var(--project-sidebar-text-color);
+    background: var(--project-sidebar-background-color);
+  }
+
+  .project-description {
+    font-size: 1.1rem;
   }
 
   /* Main Project Image Area on Large Devices */
@@ -1283,6 +1475,42 @@ body {
     pointer-events: none; /* don't block mouse interactions */
     z-index: 20; /* above the physics shapes */
     mix-blend-mode: normal; /* optional: blend with shapes behind */
+  }
+
+  .project-aside-temp {
+    width: 35%;
+    top: 5vh;
+    padding-right: 2rem;
+    padding: 0.5rem 3rem 3rem;
+    display: flex;
+    flex-direction: column;
+    color: var(--project-sidebar-text-color);
+    background: var(--project-sidebar-background-color);
+  }
+
+  .project-aside-temp-bottom {
+    width: 35%;
+    top: 5vh;
+    padding-right: 2rem;
+    padding: 0.5rem 3rem;
+    display: flex;
+    flex-direction: column;
+    color: var(--project-sidebar-text-color);
+    background: var(--project-sidebar-background-color);
+  }
+
+  .header {
+    width: 50%;
+    top: 5vh;
+    padding-right: 2rem;
+    padding: 0.5rem 3rem;
+    display: flex;
+    flex-direction: column;
+    color: var(--project-sidebar-text-color);
+    background: var(--project-sidebar-background-color);
+  }
+  .project-description {
+    font-size: 1.1rem;
   }
 }
 

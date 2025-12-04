@@ -508,8 +508,8 @@ body {
 }
 
 .header {
-  padding: 3rem 3rem 0rem 3rem;
-  width: 70%;
+  padding: 3rem 3rem 1rem 3rem;
+  width: 50%;
 }
 
 .work-wrapper {
@@ -684,7 +684,7 @@ body {
 
 .project-aside-temp {
   width: 35%;
-  height: 65vh;
+
   top: 5vh;
   padding-right: 2rem;
   padding: 0.5rem 3rem;
@@ -978,7 +978,7 @@ body {
   }
 
   .project-description {
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
   .project-title {
     font-size: 2rem;
